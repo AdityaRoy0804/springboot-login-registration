@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Success</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: linear-gradient(135deg, #a8edea 0%, #fed6e3 100%);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+    }
+
+    .success-container {
+      background: #fff;
+      padding: 40px;
+      border-radius: 12px;
+      box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+      text-align: center;
+      width: 400px;
+      animation: fadeIn 1s ease-in-out;
+    }
+
+    .success-container h2 {
+      color: #28a745;
+      font-size: 26px;
+      margin-bottom: 15px;
+    }
+
+    .success-container p {
+      color: #555;
+      font-size: 16px;
+      margin-bottom: 25px;
+    }
+
+    .success-container a {
+      display: inline-block;
+      padding: 12px 20px;
+      background: #007BFF;
+      color: #fff;
+      text-decoration: none;
+      border-radius: 6px;
+      font-size: 15px;
+      transition: background 0.3s;
+    }
+
+    .success-container a:hover {
+      background: #0056b3;
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; transform: scale(0.95); }
+      to { opacity: 1; transform: scale(1); }
+    }
+  </style>
+</head>
+<body>
+  <div class="success-container">
+    <h2>✅ Registration successfully!</h2>
+    <p>Thank you for providing your details. Login with your credentials.</p>
+    <a href="/login">Login</a>
+  </div>
+</body>
+</html>
